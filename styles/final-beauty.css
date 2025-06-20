@@ -1,0 +1,257 @@
+/* Div CSS */
+
+.nav {
+    background-color:#ff4c7a;
+    color: white;
+    padding: 15px;
+    
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap:wrap
+}
+
+.nav ul li {
+    margin: 0px;
+    list-style: none;
+}
+
+.nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 10px;
+    padding:14px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.nav a:hover {
+    background-color:#f33967;
+}
+
+/* Everything Else CSS */
+
+body, header, footer, main, section, article, aside {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    background-color: #f886ae;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background-color: #ff4c7a;
+  padding: 5px;
+  margin:80px;
+  margin-top: 10px;
+  margin-bottom: 15px;;
+  grid-template-rows: auto;
+}
+
+.grid-container > div {
+  background-color: #ffffff;
+  border: 3px solid #ff4c7a;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 30px;
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#ffffff;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+
+h1 b {
+    color:#f33967;
+}
+
+h2 {
+    font-size: 35px;
+    color: #ffffff;
+    background-color:#ff4c7a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    text-align: center;
+    margin-left: 600px;
+    margin-top:5px;
+    margin-bottom:15px;
+    width:300px;
+    
+}
+
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-top:0px;
+    height:252px;
+}
+
+.item1 img {
+    height:252px;
+}
+
+.item1 h3 {
+    background-color: hsl(345, 66%, 76%);
+    color:#ffffff;
+    text-align:left;
+    width:102px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-left:5px;
+    margin-right: 10px;
+    float:left;
+    font-size:40px;
+    margin-bottom:5px;
+}
+
+.item1 p {
+    font-size:15.75px;
+    margin-top: 6px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom:5px;
+}
+
+.item1 b {
+    color:#ff4c7a;
+}
+
+.item2 h3 {
+    background-color: hsl(7, 73%, 69%);
+    color:#ffffff;
+    text-align:left;
+    width:182px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-left:5px;
+    margin-right: 10px;
+    float:left;
+    font-size:40px;
+    margin-bottom:5px;
+}
+
+.item2 p {
+    font-size:15.75px;
+    margin-top: 6px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom:5px;
+}
+
+.item2 b {
+    color:#ff4c7a;
+}
+
+.item3 h3 {
+    background-color: hsl(19, 55%, 43%);
+    color:#ffffff;
+    text-align:left;
+    width:86px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-left:5px;
+    margin-right: 10px;
+    float:left;
+    font-size:40px;
+    margin-bottom:5px;
+}
+
+.item3 p {
+    font-size:15.75px;
+    margin-top: 6px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom:5px;
+}
+
+.item3 b {
+    color:#ff4c7a;
+}
+
+.item4 h3 {
+    background-color: hsla(19, 100%, 12%, 0.738);
+    color:#ffffff;
+    text-align:left;
+    width:114px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-left:5px;
+    margin-right: 10px;
+    float:left;
+    font-size:40px;
+    margin-bottom:5px;
+}
+
+.item4 p {
+    font-size:15.75px;
+    margin-top: 6px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom:5px;
+}
+
+.item4 b {
+    color:#ff4c7a;
+}
+
+.image-overlay-container {
+    position: relative;
+    display: block;
+    width: 100%; /* Set a width or use 100% for responsive */
+    margin:0px;
+}
+
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    background: rgba(243, 57, 103, 0.8); /* semi-transparent background */
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+    margin-bottom:none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.overlay-text b {
+    color: #ffffff;
+}
+
+.overlay-text p {
+    margin: 0;
+}
+
+
+footer {
+    color:#ffffff;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
